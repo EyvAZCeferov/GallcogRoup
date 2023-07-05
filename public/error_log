@@ -1,0 +1,64 @@
+[31-Mar-2022 07:30:15 UTC] PHP Warning:  require(/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[31-Mar-2022 07:30:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[31-Mar-2022 07:30:18 UTC] PHP Warning:  require(/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[31-Mar-2022 07:30:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[31-Mar-2022 07:54:38 UTC] PHP Warning:  require(/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[31-Mar-2022 07:54:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[31-Mar-2022 08:21:37 UTC] PHP Warning:  require(/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[31-Mar-2022 08:21:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[31-Mar-2022 09:04:16 UTC] PHP Warning:  require(/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[31-Mar-2022 09:04:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[31-Mar-2022 10:36:12 UTC] PHP Warning:  require(/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[31-Mar-2022 10:36:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/payvciuo/public_html/GalcoGroup/GalCo/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php on line 34
+[01-Apr-2022 07:16:13 UTC] PHP Warning:  require(/home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/../../app/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php on line 71
+[01-Apr-2022 07:16:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/../../app/Helpers/Helper.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php(61): composerRequireea55c0641ce18b0bc6774c76e95817ae()
+#1 /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/autoload.php(7): ComposerAutoloaderInitea55c0641ce18b0bc6774c76e95817ae::getLoader()
+#2 /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php(34): require('/home/payvciuo/...')
+#3 {main}
+  thrown in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php on line 71
+[01-Apr-2022 07:16:15 UTC] PHP Warning:  require(/home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/../../app/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php on line 71
+[01-Apr-2022 07:16:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/../../app/Helpers/Helper.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php(61): composerRequireea55c0641ce18b0bc6774c76e95817ae()
+#1 /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/autoload.php(7): ComposerAutoloaderInitea55c0641ce18b0bc6774c76e95817ae::getLoader()
+#2 /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php(34): require('/home/payvciuo/...')
+#3 {main}
+  thrown in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php on line 71
+[01-Apr-2022 07:16:16 UTC] PHP Warning:  require(/home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/../../app/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php on line 71
+[01-Apr-2022 07:16:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/../../app/Helpers/Helper.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php(61): composerRequireea55c0641ce18b0bc6774c76e95817ae()
+#1 /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/autoload.php(7): ComposerAutoloaderInitea55c0641ce18b0bc6774c76e95817ae::getLoader()
+#2 /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php(34): require('/home/payvciuo/...')
+#3 {main}
+  thrown in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php on line 71
+[01-Apr-2022 07:16:18 UTC] PHP Warning:  require(/home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/../../app/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php on line 71
+[01-Apr-2022 07:16:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/../../app/Helpers/Helper.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php(61): composerRequireea55c0641ce18b0bc6774c76e95817ae()
+#1 /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/autoload.php(7): ComposerAutoloaderInitea55c0641ce18b0bc6774c76e95817ae::getLoader()
+#2 /home/payvciuo/public_html/GalcoGroup/GalCo/public/index.php(34): require('/home/payvciuo/...')
+#3 {main}
+  thrown in /home/payvciuo/public_html/GalcoGroup/GalCo/vendor/composer/autoload_real.php on line 71
+[06-Apr-2022 21:40:51 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/u5s0a0/public_html/gallcogroup.com/AtSite/GalCoGr/app/Http/Middleware/SetLocale.php on line 23
+[06-Apr-2022 21:40:53 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/u5s0a0/public_html/gallcogroup.com/AtSite/GalCoGr/app/Http/Middleware/SetLocale.php on line 23
