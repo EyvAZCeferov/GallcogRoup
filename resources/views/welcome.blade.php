@@ -7,22 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> {{ $data[0]->title[app()->getLocale() . '_title'] }}</title>
     <meta name="title" content="{{ $data[0]->title[app()->getLocale() . '_title'] }}">
-    <meta name="description" content="{!! strip_tags($data[0]->description[app()->getLocale() . '_description']) !!}">
-    <meta name="author" content="Markotic Creative Studio">
+    <meta name="description" content="{!! App\Helper::strip_tags_with_whitespace($data[0]->description[app()->getLocale() . '_description']) !!}">
+    <meta name="author" content="Globalmart Group">
     <meta name="keywords" content="{{ $data[0]->keywords[app()->getLocale() . '_keywords'] }}">
-    <meta name="subject" content="Markotic Creative Studio">
-    <meta name="copyright" content="Markotic Creative Studio">
+    <meta name="subject" content="Globalmart Group">
+    <meta name="copyright" content="Globalmart Group">
     <meta name="language" content="AZ, EN">
     <meta name="robots" content="index,follow" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ env('APP_URL') }}">
     <meta property="og:title" content="{{ $data[0]->title[app()->getLocale() . '_title'] }}">
-    <meta property="og:description" content="{!! strip_tags($data[0]->description[app()->getLocale() . '_description']) !!}">
+    <meta property="og:description" content="{!! App\Helper::strip_tags_with_whitespace($data[0]->description[app()->getLocale() . '_description']) !!}">
     <meta property="og:image" content="{{ env('APP_ADMIN_URL') . '/uploads/' . 'settings/' . $data[0]->logo }}">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ env('APP_URL') }}">
     <meta property="twitter:title" content="{{ $data[0]->title[app()->getLocale() . '_title'] }}">
-    <meta property="twitter:description" content="{!! strip_tags($data[0]->description[app()->getLocale() . '_description']) !!}">
+    <meta property="twitter:description" content="{!! App\Helper::strip_tags_with_whitespace($data[0]->description[app()->getLocale() . '_description']) !!}">
     <meta property="twitter:image" content="{{ env('APP_ADMIN_URL') . '/uploads/' . 'settings/' . $data[0]->logo }}">
 
     <link href="{{asset("assets/fonts/montserrat.css")}}"
@@ -99,9 +99,9 @@
                                             class="footer__lang--link">English</a>
                                     @endif
                                 </div>
-                                <div class="footer__next" style="display:inline-block">
+                                <div class="footer__next" style="display:none">
 
-                                    <a class="footer__next--link" href="https://globalmart.az" target="_blank">Developed By Globalmart Group</a>
+
                                 </div>
                                 <div class="footer__social">
                                     @if ($data[0]->social_media['instagram_url'] !=null && $data[0]->social_media['instagram_url'] !="" && $data[0]->social_media['instagram_url'] !=" ")
@@ -239,7 +239,6 @@
                 <!-- Sections -->
                 <section
                     class="vertical-scrolling section {{ $data[$i]->slugs[app()->getLocale() . '_slug'] }}"
-
                     >
                     <div class="container">
                         <div class="page">
@@ -312,8 +311,9 @@
                                     @endif
                                     </div>
 
-                                    @if($i!=count($data)-1)
                                         <div class="footer__next">
+                                    @if($i!=count($data)-1)
+
                                             <a href="#{{ isset($data[$i+1]) ? $data[$i+1]->slugs[app()->getLocale() . '_slug'] : $data[$i]->slugs[app()->getLocale() . '_slug'] }}"
                                                 class="footer__next--link">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 25"
@@ -327,8 +327,13 @@
                                                     {{ isset($data[$i+1]) ? $data[$i+1]->title[app()->getLocale() . '_title'] : $data[0]->title[app()->getLocale() . '_title'] }}
                                                 </span>
                                             </a>
-                                        </div>
+                                            @else
+                                    <a class="footer__next--link" href="https://globalmart.az" target="_blank">Developed By Globalmart Group</a>
+
                                     @endif
+
+                                        </div>
+
                                     <div class="footer__social">
                                         @if ($data[$i]->social_media['instagram_url'] !=null && $data[$i]->social_media['instagram_url'] !="" && $data[$i]->social_media['instagram_url'] !=" ")
                                             <div class="footer__social--item">
@@ -489,7 +494,7 @@
         gtag('js', new Date());
 
         gtag('config', '');
-    </script> */
+    </script>
     @include('function.script',['data'=>$data])
 
 

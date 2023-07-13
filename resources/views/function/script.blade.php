@@ -39,14 +39,10 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 
                     document.title = '{{$data[$i]->title[app()->getLocale().'_title']}}';
                     $("meta[name='title']").attr("content", '{{$data[$i]->title[app()->getLocale().'_title']}}');
-                    $("meta[name='description']").attr("content", '{{strip_tags($data[$i]->description[app()->getLocale().'_description'])}}');
-                    $("meta[name='keywords']").attr("content", '{{$data[$i]->keywords[app()->getLocale().'_keywords']}}');
-                    $("meta[name='keywords']").attr("content", '{{$data[$i]->keywords[app()->getLocale().'_keywords']}}');
-                    $("meta[property='og\\title']").attr("content", '{{$data[$i]->title[app()->getLocale().'_title']}}');
-                    $("meta[property='og\\description']").attr("content", '{{strip_tags($data[$i]->description[app()->getLocale().'_description'])}}');
+
                     $("meta[property='og\\image']").attr("content", '{{ env('APP_ADMIN_URL') . '/uploads/' . 'settings/' . $data[$i]->logo }}');
                     $("meta[property='twitter\\title']").attr("content", '{{$data[$i]->title[app()->getLocale().'_title']}}');
-                    $("meta[property='twitter\\description']").attr("content", '{{strip_tags($data[$i]->description[app()->getLocale().'_description'])}}');
+
                     $("meta[property='twitter\\image']").attr("content", '{{ env('APP_ADMIN_URL') . '/uploads/' . 'settings/' . $data[$i]->logo }}');
                     $("link[rel='shortcut icon']").attr("href", '{{ env('APP_ADMIN_URL') . '/uploads/' . 'settings/' . $data[$i]->favicon }}');
 
@@ -59,14 +55,10 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 
                     document.title = '{{$data[$i]->title[app()->getLocale().'_title']}}';
                     $("meta[name='title']").attr("content", '{{$data[$i]->title[app()->getLocale().'_title']}}');
-                    $("meta[name='description']").attr("content", '{{strip_tags($data[$i]->description[app()->getLocale().'_description'])}}');
-                    $("meta[name='keywords']").attr("content", '{{$data[$i]->keywords[app()->getLocale().'_keywords']}}');
-                    $("meta[name='keywords']").attr("content", '{{$data[$i]->keywords[app()->getLocale().'_keywords']}}');
-                    $("meta[property='og\\title']").attr("content", '{{$data[$i]->title[app()->getLocale().'_title']}}');
-                    $("meta[property='og\\description']").attr("content", '{{strip_tags($data[$i]->description[app()->getLocale().'_description'])}}');
+
                     $("meta[property='og\\image']").attr("content", '{{ env('APP_ADMIN_URL') . '/uploads/' . 'settings/' . $data[$i]->logo }}');
                     $("meta[property='twitter\\title']").attr("content", '{{$data[$i]->title[app()->getLocale().'_title']}}');
-                    $("meta[property='twitter\\description']").attr("content", '{{strip_tags($data[$i]->description[app()->getLocale().'_description'])}}');
+
                     $("meta[property='twitter\\image']").attr("content", '{{ env('APP_ADMIN_URL') . '/uploads/' . 'settings/' . $data[$i]->logo }}');
                     $("link[rel='shortcut icon']").attr("href", '{{ env('APP_ADMIN_URL') . '/uploads/' . 'settings/' . $data[$i]->favicon }}');
 
@@ -107,9 +99,14 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         scaleMobile: 1.0,
         color: 0xd4d4d4,
         backgroundColor: 0xffffff,
-        points: 18.00,
-        maxDistance: 14.00,
-        spacing: 18.00
+        points: 8.00,
+        maxDistance: 21.00,
+        spacing: 14.00,
+        showDots: false,
+    backgroundAlpha: 0.9,
+    waveHeight: 35, // Dalga yüksekliği
+    shininess: 20, // Parlaklık
+    waveSpeed: 0.3 // Dalga hızı
     });
 }else{
     VANTA.NET({
@@ -122,9 +119,14 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         scaleMobile: 1.0,
         color: 0xd4d4d4,
         backgroundColor: 0xffffff,
-        points: 10.00,
-        maxDistance: 20.00,
-        spacing: 15.00
+        points: 8.00,
+        maxDistance: 21.00,
+        spacing: 14.00,
+        showDots: false,
+    backgroundAlpha: 0.9,
+    waveHeight: 35, // Dalga yüksekliği
+    shininess: 20, // Parlaklık
+    waveSpeed: 0.3 // Dalga hızı
     });
 }
 </script>
